@@ -1,4 +1,4 @@
-#tass
+import random
 sum=0
 count=0
 import random
@@ -13,4 +13,4 @@ while True:
     else:
         continue 
 print(sum)
-print("tedad tekrar rikhtan tass:  ",count)
+print("some of number:  ",count)
