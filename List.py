@@ -1,18 +1,18 @@
 import random 
 
-adad_random=0
+number_random=0
 
-aadad = []
-adad_tavan2=[]
+number = []
+Number_to_the_power_of2=[]
 while True:
-    adad_random = random.randint(1 , 100)
-    aadad.append(adad_random)
+    number_random = random.randint(1 , 100)
+    number.append(number_random)
 
-    if len(aadad) == 20:
+    if len(number) == 20:
         break
 
-print("aadad pish farz: " , aadad)
+print("Default number: " , number)
 
-for i in aadad:
-    adad_tavan2.append(i**2)
-print("aadad tavan 2 : ", adad_tavan2)
+for i in number:
+    Number_to_the_power_of2.append(i**2)
+print("Number_to_the_power_of2 : ", Number_to_the_power_of2)
